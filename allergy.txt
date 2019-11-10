@@ -1,0 +1,32 @@
+001, allergy: garlic, meat, 
+002, allergy: corn
+003, allergy: allergy-friendly
+004, allergy: cheese, garlic
+005, allergy: alcohol, milk, meat
+006, allergy: egg, corn, garlic, spinach, cheese
+007, allergy: cheese, corn, meat
+008, allergy: pineapple
+009, allergy: cheese, corn, 
+010, allergy: gluten, corn, milk and soy
+011, allergy: gluten-free, dairy-free 
+012, allergy: gluten, 
+013, allergy: allergy-friendly
+014, allergy: fish, milk, gluten, egg
+015, allergy: gluten, milk
+016, allergy: gluten
+017, allergy: gluten, milk
+018, allergy: fish, gluten-free
+019, allergy: milk, egg, sesame seeds
+020, allergy: egg, milk
+021, allergy: gluten, milk
+022, allergy: milk, watercress, gluten
+023, allergy: gluten, milk, kidney beans
+024, allergy: pinto, paprika, milk
+025, allergy: gluten, milk, parsley
+026, allergy: milk
+027, allergy: egg
+028, allergy: egg, banana
+029, allergy: banana, milk
+030, allergy: milk
+031, allergy: egg, milk, gluten
+032, allergy: milk

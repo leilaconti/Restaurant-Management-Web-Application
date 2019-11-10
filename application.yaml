@@ -1,0 +1,41 @@
+security:
+
+  basic:
+    enabled: false
+
+  compression:
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain,application/javascript,text/css
+
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false
+
+  # JPA settings.
+  jpa:
+    # Disable warning about queries during page loading.
+    open-in-view: false
+    # Hibernate settings.
+    hibernate:
+      # Change ddl-auto to 'none' once all database access stuff is set up.
+      ddl-auto: none
+    # Disable Hibernate 'clob' error when using PostgreSQL.
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    # Fix long startup time.
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+
+  # DataSource settings.
+  datasource:
+    driverClassName: org.postgresql.Driver
+    maxActive: 10
+    maxIdle: 5
+    minIdle: 2
+    initialSize: 5
+    removeAbandoned: true

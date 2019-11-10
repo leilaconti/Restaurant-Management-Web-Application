@@ -1,0 +1,14 @@
+{
+  "name": "team-project-2019_14",
+  "version": "1.0.0",
+  "description": "Build frontend dependencies for 'A Restaurant Management System (ARMS)'",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benzi <hi@benzi.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
